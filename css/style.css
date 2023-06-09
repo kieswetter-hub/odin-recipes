@@ -1,17 +1,6 @@
 html {
     background-color: #fefefa;
-}
-
-.top-section {
-    background-color: #e1bee7;
-    width: 900px;
-    color: #292828;
-    font-size: 16px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    border: 10px solid #292828;
+    font-family: sans-serif;
 }
 
 h1{
@@ -26,14 +15,6 @@ img{
     border: 2px solid #292828;
 }
 
-.top-section {
-    font-family: sans-serif;
-}
-
-.bottom-section {
-    font-family: sans-serif;
-}
-
 ol {
     list-style-position: inside;
 }
@@ -42,14 +23,52 @@ ul {
     list-style-position: inside;
 }
 
-.button-block {
+.top-section {
     background-color: #e1bee7;
     width: 900px;
     color: #292828;
     font-size: 16px;
     text-align: center;
-    border: 10px solid #292828;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border: 7.5px solid #292828;
+}
+
+.heading-section {
+    background-color: #e1bee7;
+    width: 900px;
+    color: #292828;
+    font-size: 16px;
+    text-align: center;
+    border: 7.5px solid #292828;
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
 }
+
+.button-section {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+button {
+    display: inline-block;
+    background-color: #e1bee7; 
+    width: 34.65%;
+    color: #292828;
+    font-size: 16px;
+    text-align: center;
+    border: 7.5px solid #292828;
+    margin:-7.5px;
+    margin-top: 0px;
+    padding: 25px 75px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #ce93d8; 
+    color: #292828;   
+  }
